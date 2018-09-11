@@ -1,0 +1,30 @@
+
+:local{
+
+    .social-img {
+        padding: 5px;
+        opacity: .5;
+        transition-duration: .5s;
+    }
+
+    .social-img:hover {
+        color: black;
+        opacity: 1;
+        transition-duration: .5s;
+    }
+
+    .ig {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .github {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .in {
+        width: 38px;
+        height: 34px;
+    }
+}

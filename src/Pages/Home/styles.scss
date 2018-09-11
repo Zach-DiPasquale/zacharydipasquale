@@ -1,0 +1,46 @@
+@import 'styles/defaults/colors';
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+
+:local {
+    .row {
+        display: flex;
+        justify-content: flex-end;
+        height: 100vh;
+        
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .block {
+            margin-right: 250px;
+        }
+    }
+    
+    .content {
+        font-family: 'Rubik', sans-serif;
+        color: #FFFFFF;
+    }
+
+    .name {
+        font-weight: 700;
+        font-size: 2em;
+        margin: .1em;
+    }
+
+    .degree {
+        font-weight: 300;
+        font-size: .95em
+    }
+
+    .social {
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px;
+        width: 100%;
+    }
+}
+

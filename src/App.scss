@@ -1,0 +1,31 @@
+@import 'styles/defaults/colors';
+
+:local {
+    body {
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: $default-gray;
+        // background-image: url(./images/me.jpg);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background-attachment: fixed;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-family: sans-serif;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(100%);
+        scroll-snap-type: y mandatory;
+    }
+
+    section {
+        height: 100vh;
+        scroll-snap-align: start;
+        text-align: center;
+        position: relative;
+    }
+}
